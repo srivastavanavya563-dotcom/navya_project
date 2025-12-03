@@ -1,0 +1,36 @@
+div.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+}
+.item1{
+    height: 100px;
+    background-color: lightcoral;
+    width:100px ;
+}
+.item2{
+    height: 100px;
+    width:100px ;
+    background-color: lightskyblue;
+}
+.item3{
+    height: 100px;
+    width:100px ;
+    background-color: rgb(202, 26, 132);
+}
+.item4{
+    height: 100px;
+    width: 100px ;
+    background-color: lightyellow;
+}
+.item5{
+    height: 100px;
+    width:100px ;
+    background-color: lightpink;
+}
